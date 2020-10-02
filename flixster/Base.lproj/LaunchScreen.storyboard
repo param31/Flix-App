@@ -15,40 +15,25 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="launch_image" translatesAutoresizingMaskIntoConstraints="NO" id="zGv-13-W6i">
-                                <rect key="frame" x="97" y="124" width="181" height="174"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="174" id="FOn-ic-ihG"/>
-                                    <constraint firstAttribute="width" constant="181" id="sbu-99-0ag"/>
-                                </constraints>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="launch_image" translatesAutoresizingMaskIntoConstraints="NO" id="nZk-4d-Dxv">
+                                <rect key="frame" x="80" y="144" width="215" height="204"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="FLIX" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="McR-5t-JDu">
-                                <rect key="frame" x="121" y="370" width="133" height="72"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="133" id="BSu-Ov-Pdo"/>
-                                    <constraint firstAttribute="width" constant="133" id="FpB-to-Fhe"/>
-                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="133" id="uyP-1I-9Rk"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="60"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="FLIX" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yh9-Mg-51E">
+                                <rect key="frame" x="103" y="384" width="169" height="96"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="80"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="zGv-13-W6i" secondAttribute="trailing" constant="97" id="2Tp-ph-kMS"/>
-                            <constraint firstItem="zGv-13-W6i" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="124" id="3w4-4T-blP"/>
-                            <constraint firstItem="zGv-13-W6i" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="97" id="7LN-wu-BYO"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="McR-5t-JDu" secondAttribute="trailing" constant="121" id="7qY-G1-kR1"/>
-                            <constraint firstItem="McR-5t-JDu" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="334" id="SWG-xc-kh4"/>
-                            <constraint firstItem="McR-5t-JDu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="121" id="zQw-jJ-nWG"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+            <point key="canvasLocation" x="50.724637681159422" y="374.33035714285711"/>
         </scene>
     </scenes>
     <resources>
